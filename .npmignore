@@ -1,0 +1,9 @@
+node_modules
+.idea
+.DS_Store
+.gitignore
+.npmignore
+src
+*.log
+tsconfig.json
+yarn.lock

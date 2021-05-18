@@ -1,0 +1,33 @@
+{
+  "name": "libretrodb",
+  "version": "1.0.0",
+  "description": "A small reader for RetroArch databases",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbdemonte/node-libretrodb.git"
+  },
+  "author": {
+    "name": "Jean-Baptiste DEMONTE",
+    "email": "jbdemonte@gmail.com",
+    "url": "https://jb.demonte.fr"
+  },
+  "keywords": [
+    "typescript",
+    "retroarch",
+    "libretro-db",
+    "libretrodb",
+    "rdb",
+    "database"
+  ],
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
